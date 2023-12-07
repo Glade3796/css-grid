@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box flex wrap centerjustify pink"></div>
+      <div class="box flex centerjustifyblue column">
+        <h3 id="outputLoginE"></h3>
+        <h3 id="outputLoginP"></h3>
+      </div>
+
+      <div class="box yellow"></div>
+      <div class="box purple"></div>
+      <div class="box flex centerjustify column">
+        <form id="loginDeets" class="flex centerjustify column h100">
+          <div class="flex mar10px">
+            <label for="email">Email: </label>
+            <input type="email" name="email" placeholder="joe.blog@gmail.com" />
+          </div>
+          <div class="flex mar10px">
+            <label for="password">Password: </label>
+            <input type="password" name="password" placeholder="password" />
+          </div>
+          <div class="flex mar10px">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+      <div class="box purple"></div>
+      <div class="box yellow"></div>
+
+      <div class="box blue"></div>
+      <div class="box pink"></div>
+    </div>
+  </body>
+</html>
